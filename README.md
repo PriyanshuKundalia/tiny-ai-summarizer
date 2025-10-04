@@ -20,7 +20,7 @@ A web app that transforms long articles into exactly 3 clear sentences. Built to
 
 ## 🚀 Try It Live
 
-**[Use the app here →](https://your-app-url.streamlit.app)** *(Will be live after deployment)*
+**[Use the app here →](https://your-app-url.streamlit.app)** *https://ai-summarizer-priyanshu.streamlit.app/*
 
 ## ✨ How It Exceeds Expectations
 
