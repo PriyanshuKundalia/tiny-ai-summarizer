@@ -13,7 +13,7 @@
 
 ---
 
-## 🚀 Phase 1: Research & Planning (Day 1)
+## 🚀 Phase 1: Research & Planning (Day 1 - Morning)
 
 ### Initial Research
 - **Spent 2 hours** researching text summarization approaches
@@ -43,7 +43,7 @@ def bad_summarizer(text):
 
 ---
 
-## 🛠️ Phase 2: Building the Core (Day 2-3)
+## 🛠️ Phase 2: Building the Core (Day 1 - Afternoon)
 
 ### Setting Up the Environment
 ```bash
@@ -91,7 +91,7 @@ def chunk_text_intelligently(text, max_chars=1200):
 
 ---
 
-## 💻 Phase 3: Building the UI (Day 4)
+## 💻 Phase 3: Building the UI (Day 1 - Evening)
 
 ### Why Streamlit?
 - Researched Flask, Django, Tkinter
@@ -120,7 +120,7 @@ if st.button("Summarize"):
 
 ---
 
-## ⚡ Phase 4: Optimization & Deployment (Day 5-6)
+## ⚡ Phase 4: Optimization & Deployment (Day 2)
 
 ### Performance Problems
 **Issue**: App was SLOW (20+ seconds per summary)
@@ -152,7 +152,7 @@ def get_summarizer():
 
 ---
 
-## 🚀 Phase 5: Going Beyond Requirements
+## 🚀 Phase 5: Going Beyond Requirements (Day 2 - Final Polish)
 
 ### Extra Features Added
 1. **Smart Chunking**: Preserves paragraph structure instead of random cuts
@@ -218,7 +218,7 @@ def get_summarizer():
 
 ### If I Started Over
 1. **Research deployment first** - would have chosen t5-small from the start
-2. **Plan UI earlier** - spent too much time on CLI version
+2. **Plan UI and performance together** - better integration from the start
 3. **Test with real articles sooner** - caught chunking issues late
 
 ### Future Improvements
@@ -252,9 +252,9 @@ def get_summarizer():
 
 ---
 
-**Total time invested**: ~25 hours over 6 days  
-**Most challenging part**: Balancing speed vs quality  
+**Total time invested**: ~12 hours over 2 days  
+**Most challenging part**: Balancing speed vs quality in limited time  
 **Most rewarding moment**: Seeing it work on a real 5000-word article  
-**Biggest learning**: AI isn't magic - it's about making good trade-offs  
+**Biggest learning**: AI isn't magic - it's about making smart trade-offs quickly  
 
-*This project taught me that building AI apps is less about the AI and more about understanding users, handling edge cases, and making good engineering decisions.*
+*This project taught me that building AI apps is less about the AI and more about understanding users, handling edge cases, and making good engineering decisions under time pressure.*
